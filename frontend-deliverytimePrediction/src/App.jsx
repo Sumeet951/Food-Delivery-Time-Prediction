@@ -23,7 +23,7 @@ export default function App() {
     setLoading(true);
     setPrediction(null);
     try {
-      const res = await fetch("https://job-portal-mu-ochre.vercel.app/predict", {
+      const res = await fetch("https://food-delivery-time-prediction-2.onrender.com/predict", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
